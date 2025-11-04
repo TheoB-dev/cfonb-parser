@@ -65,7 +65,7 @@ class Operation extends Element
         return $this->accountNumber;
     }
 
-    public function getCode(): string
+    public function getCode(): ?string
     {
         return $this->code;
     }
